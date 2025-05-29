@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Streamlit",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/n8n-streamlit-agent.py"  
+            ],
+            "jinja": true,
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                // Thêm các biến môi trường nếu cần
+                // Ví dụ: "MY_ENV_VAR": "value"
+            }
+        }
+    ]
+}
